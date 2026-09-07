@@ -41,8 +41,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # المسار اللي Vite بيطلع فيه ملفات الموقع النهائية
-          path: './dist'
+          # المسار اللي TanStack Start/Nitro بيطلع فيه ملفات الموقع النهائية
+          path: './.output/public'
 
   deploy:
     environment:
