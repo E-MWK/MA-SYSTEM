@@ -29,7 +29,7 @@ export const site = {
   facebook: "https://www.facebook.com/MASYSTEM.EG",
 
   // مفتاح Web3Forms (مجاني من web3forms.com) — يرسل رسائل الفورم لإيميلك
-  web3formsKey: "YOUR_WEB3FORMS_ACCESS_KEY",
+  web3formsKey: "403b7ed7-ea24-42ad-9ed5-4ee3aece53af",
 
   // السعر — اتركه فارغًا لإخفاء السعر وإظهار «تواصل معنا»
   price: "",
