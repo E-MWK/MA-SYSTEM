@@ -24,7 +24,7 @@ export const site = {
   // رقم الواتساب بالصيغة الدولية بدون + أو مسافات
   whatsapp: "201555232801",
 
-  email: "info@masystem-eg.com",
+  email: "mw.abowarda@gmail.com",
 
   facebook: "https://www.facebook.com/MASYSTEM.EG",
 
