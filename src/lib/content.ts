@@ -35,7 +35,7 @@ export const translations = {
   "pain.kicker": { ar: "عارف الإحساس ده؟", en: "Sound familiar?" },
   "pain.title": { ar: "المشاكل اللي MA SYSTEM بيحلها", en: "The problems MA SYSTEM solves" },
   "pain.subtitle": {
-    ar: "لو بتدير محلك بدفتر أو إكسيل، غالبًا بتعدي بالمواقف دي كل يوم.",
+    ar: "لو بتدير محلك بدفتر أو إكسل، غالبًا بتعدي بالمواقف دي كل يوم.",
     en: "If you run your shop with a notebook or spreadsheets, you probably face these every day.",
   },
   "pain.1.title": { ar: "«الصنف ده خلص امتى؟»", en: "\"When did this item run out?\"" },
@@ -83,7 +83,7 @@ export const translations = {
   },
   "hl.profit.title": { ar: "أسعار وأرباح", en: "Pricing & Profit" },
   "hl.profit.text": {
-    ar: "سعّر بهامش ربح واضح، والبرنامج ينبّهك لو تكلفة صنف اتغيرت — عشان متبيعش بخسارة من غير ما تعرف.",
+    ar: "سعّر بهامش ربح واضح، والبرنامج ينبّهك لو تكلفة صنف اتغيرت — عشان ما تبيعش بخسارة من غير ما تعرف.",
     en: "Price with a clear margin, and get alerted when an item's cost changes — so you never sell at a loss unknowingly.",
   },
   "hl.accounting.title": { ar: "حسابات يومية", en: "Daily Accounting" },
@@ -132,12 +132,12 @@ export const translations = {
   },
   "how.2.title": { ar: "أدخل أصنافك", en: "Add your items" },
   "how.2.text": {
-    ar: "استورد أصنافك وعملاءك من ملف إكسيل جاهز، أو أدخلهم يدويًا بسهولة.",
+    ar: "استورد أصنافك وعملاءك من ملف إكسل جاهز، أو أدخلهم يدويًا بسهولة.",
     en: "Import your items and customers from a ready Excel file, or enter them easily by hand.",
   },
   "how.3.title": { ar: "ابدأ البيع", en: "Start selling" },
   "how.3.text": {
-    ar: "اطلع أول فاتورة فورًا، والبرنامج هيبدأ يحسبلك المخزون والأرباح تلقائيًا.",
+    ar: "طلّع أول فاتورة فورًا، والبرنامج هيبدأ يحسبلك المخزون والأرباح تلقائيًا.",
     en: "Issue your first invoice right away — the app starts tracking stock and profit automatically.",
   },
 
@@ -150,7 +150,7 @@ export const translations = {
   },
   "safety.1.title": { ar: "قاعدة بيانات مشفّرة", en: "Encrypted database" },
   "safety.1.text": {
-    ar: "بياناتك محفوظة مشفّرة — محدش يقدر يفتحها أو يطّلع عليها غير من جوّه البرنامج.",
+    ar: "بياناتك محفوظة مشفّرة — محدش يقدر يفتحها أو يطّلع عليها غير من داخل البرنامج.",
     en: "Your data is stored encrypted — no one can open or read it except from inside the app.",
   },
   "safety.2.title": { ar: "أنت صاحب القرار", en: "You're in charge" },
@@ -160,12 +160,12 @@ export const translations = {
   },
   "safety.3.title": { ar: "لو الجهاز اتفرمت؟ مفيش مشكلة", en: "Device wiped? No problem" },
   "safety.3.text": {
-    ar: "لو عملت فورمات أو غيّرت الجهاز، بترجّع لآخر نسخة احتياطية في دقائق وتكمّل شغلك كأن مفيش حاجة حصلت.",
+    ar: "لو عملت فورمات أو غيّرت الجهاز، بتسترجع آخر نسخة احتياطية في دقائق وتكمّل شغلك كأن مفيش حاجة حصلت.",
     en: "If you format or replace your device, restore your latest backup in minutes and carry on as if nothing happened.",
   },
   "safety.4.title": { ar: "نسيت مفتاح التشفير؟", en: "Forgot your encryption key?" },
   "safety.4.text": {
-    ar: "فريق الدعم يقدر يساعدك ترجّعه — بياناتك مبتلحش أبدًا طالما إنت صاحبها.",
+    ar: "فريق الدعم يقدر يساعدك ترجّعه — بياناتك ما بتضيعش أبدًا طالما أنت صاحبها.",
     en: "Our support team can help you recover it — your data is never lost as long as it's yours.",
   },
 
@@ -202,7 +202,7 @@ export const translations = {
     ar: "لأ خالص. البرنامج معمول لصاحب المحل مش للمحاسب: الواجهة بالعربي، والخطوات واضحة، وأي حاجة محتاجة شرح هتلاقيها في مركز المساعدة أو تسألنا على واتساب.",
     en: "Not at all. The app is built for the shop owner, not the accountant: Arabic interface, clear steps, and anything you need explained is in the Help Center or on WhatsApp.",
   },
-  "faq.q3": { ar: "إيه اللي يحصل لبياناتي لو الجهاز بايز؟", en: "What happens to my data if the device breaks?" },
+  "faq.q3": { ar: "إيه اللي يحصل لبياناتي لو الجهاز اتعطل؟", en: "What happens to my data if the device breaks?" },
   "faq.a3": {
     ar: "بياناتك مشفّرة ومحفوظة عندك، ومع نسخة احتياطية على قرص تاني أو وحدة خارجية تقدر ترجّع شغلك كامل على أي جهاز جديد في دقائق.",
     en: "Your data is encrypted and stored with you. With a backup on a second drive or external storage, you can restore everything on a new device in minutes.",
@@ -217,9 +217,9 @@ export const translations = {
     ar: "أيوه، البرنامج بيطبع فواتير على الطابعات العادية والحرارية، وبيطبع ملصقات باركود للأصناف كمان.",
     en: "Yes. The app prints invoices on standard and thermal printers, and prints barcode labels for your items too.",
   },
-  "faq.q6": { ar: "أقدر أنقل بياناتي القديمة من إكسيل؟", en: "Can I move my old data from Excel?" },
+  "faq.q6": { ar: "أقدر أنقل بياناتي القديمة من إكسل؟", en: "Can I move my old data from Excel?" },
   "faq.a6": {
-    ar: "أيوه، في استيراد مباشر من ملفات إكسيل للأصناف والعملاء — مش هتبدأ من الصفر.",
+    ar: "أيوه، في استيراد مباشر من ملفات إكسل للأصناف والعملاء — مش هتبدأ من الصفر.",
     en: "Yes. There's direct import from Excel files for items and customers — you won't start from scratch.",
   },
 
@@ -349,9 +349,9 @@ export const translations = {
   "ft.comfort.title": { ar: "راحة البال", en: "Peace of Mind" },
   "ft.comfort.items": {
     ar: [
-      "شغلك ما يوقفش مهما حصل",
+      "شغلك ما يقفش مهما حصل",
       "نسخ احتياطي واستعادة بضغطة واحدة",
-      "استيراد الأصناف والعملاء من إكسيل",
+      "استيراد الأصناف والعملاء من إكسل",
       "تحديثات مستمرة ودعم بالعربي",
     ],
     en: [
@@ -365,7 +365,7 @@ export const translations = {
   // ── صفحة التحميل ──────────────────────────────────────
   "dl.hero.title": { ar: "حمّل MA SYSTEM", en: "Download MA SYSTEM" },
   "dl.hero.subtitle": {
-    ar: "النسخة التجريبية كاملة الوظائف. ثبّتها وجربها على شغلك، وقرار الشراء ييجي بعدين.",
+    ar: "النسخة التجريبية كاملة الوظائف. ثبّتها وجربها على شغلك، وقرار الشراء يجي بعدين.",
     en: "The trial is fully featured. Install it, try it on your real work, and decide about buying later.",
   },
   "dl.button": { ar: "تحميل النسخة التجريبية", en: "Download the free trial" },
@@ -401,8 +401,8 @@ export const translations = {
       "حمّل ملف التثبيت من الزر اللي فوق",
       "افتح الملف واتبع خطوات التثبيت — أقل من دقيقتين",
       "شغّل البرنامج وأنشئ حسابك الأول",
-      "استورد أصنافك من إكسيل أو أدخلهم يدويًا",
-      "اطلع أول فاتورة وابدأ الشغل",
+      "استورد أصنافك من إكسل أو أدخلهم يدويًا",
+      "طلّع أول فاتورة وابدأ الشغل",
     ],
     en: [
       "Download the installer from the button above",
@@ -426,9 +426,9 @@ export const translations = {
       "بعد التثبيت، أنشئ حساب المدير وكلمة السر",
       "راجع إعدادات الشركة: الاسم والعنوان بيظهروا على الفاتورة",
       "حدد مكان حفظ البيانات ومكان النسخ الاحتياطي من الإعدادات",
-      "أضف مخزنك الأول وأصنافك — أو استوردهم من إكسيل",
+      "أضف مخزنك الأول وأصنافك — أو استوردهم من إكسل",
       "أضف عملاءك ومورديك الأساسيين",
-      "اطلع أول فاتورة بيع — والبرنامج هيتولى الباقي تلقائيًا",
+      "طلّع أول فاتورة بيع — والبرنامج هيتولى الباقي تلقائيًا",
     ],
     en: [
       "After installing, create the admin account and password",
@@ -442,10 +442,10 @@ export const translations = {
   "docs.invoice.title": { ar: "إنشاء أول فاتورة", en: "Creating your first invoice" },
   "docs.invoice.items": {
     ar: [
-      "افتح شاشة البيع واختار العميل (أو بيع نقدي مباشر)",
+      "افتح شاشة البيع واختر العميل (أو بيع نقدي مباشر)",
       "امسح الباركود أو ابحث باسم الصنف",
       "عدّل الكمية والسعر والخصم لو محتاج",
-      "اختار طريقة الدفع: نقدي أو أجل",
+      "اختر طريقة الدفع: نقدي أو أجل",
       "اطبع الفاتورة على طابعة عادية أو حرارية",
       "الفاتورة بتحدّث المخزون وحساب العميل تلقائيًا",
     ],
@@ -461,7 +461,7 @@ export const translations = {
   "docs.stock.title": { ar: "جرد المخزن", en: "Stocktaking" },
   "docs.stock.items": {
     ar: [
-      "افتح شاشة الجرد واختار المخزن",
+      "افتح شاشة الجرد واختر المخزن",
       "أدخل الكميات الفعلية اللي عديتها",
       "البرنامج يقارن الفعلي بالدفتر ويطلعلك الفروق",
       "راجع الفروق واعتمد التسوية — كل حاجة بتتسجل",
@@ -503,7 +503,7 @@ export const translations = {
       "If you change devices or face any issue, message us on WhatsApp and we'll sort it out",
     ],
   },
-  "docs.ask": { ar: "ملقتش إجابتك؟ كلمنا مباشرة", en: "Didn't find your answer? Contact us directly" },
+  "docs.ask": { ar: "ملقيتش إجابتك؟ كلمنا مباشرة", en: "Didn't find your answer? Contact us directly" },
 
   // ── تواصل ─────────────────────────────────────────────
   "contact.hero.title": { ar: "كلمنا — احنا موجودين", en: "Talk to us — we're here" },

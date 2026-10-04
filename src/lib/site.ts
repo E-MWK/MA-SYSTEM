@@ -10,14 +10,19 @@ export const site = {
 
   // مستودع الإصدارات على GitHub (صيغة: اسم-المستخدم/اسم-المستودع)
   // GitHub releases repo, e.g. "myuser/ma-system-releases"
-  githubRepo: "YOUR_GITHUB_USER/ma-system-releases",
+  githubRepo: "E-MWK/MA-System-Releases",
 
   // اسم ملف التثبيت داخل الإصدار (يُفضَّل أن يكون ثابتًا مثل MA-SYSTEM-Setup.exe)
   // Installer asset file name inside the release
-  installerFileName: "MA-SYSTEM-Setup.exe",
+  installerFileName: "MA_SYS_1.0.2_x64.exe",
+
+  // رابط التحميل المباشر للنسخة الحالية
+  // Direct download link for the current release
+  directDownloadUrl:
+    "https://github.com/E-MWK/MA-System-Releases/releases/download/v1.0.3/MA_SYS_1.0.2_x64.exe",
 
   // رقم الواتساب بالصيغة الدولية بدون + أو مسافات
-  whatsapp: "201000000000",
+  whatsapp: "201555232801",
 
   email: "info@masystem-eg.com",
 

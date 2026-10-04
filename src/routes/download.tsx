@@ -50,10 +50,17 @@ function formatSize(bytes: number): string {
   return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 }
 
+const DEFAULT_RELEASE: ReleaseInfo = {
+  version: "v1.0.3",
+  date: "",
+  sizeMb: "161.3 MB",
+  downloadUrl: site.directDownloadUrl,
+};
+
 function DownloadPage() {
   const { t, ta, lang } = useLang();
-  const [release, setRelease] = useState<ReleaseInfo | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [release, setRelease] = useState<ReleaseInfo>(DEFAULT_RELEASE);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -69,20 +76,19 @@ function DownloadPage() {
           assets.find((a) => /\.(exe|msi)$/i.test(a.name)) ??
           assets[0];
         setRelease({
-          version: data.tag_name ?? data.name ?? "",
+          version: data.tag_name ?? data.name ?? DEFAULT_RELEASE.version,
           date: data.published_at
             ? new Date(data.published_at).toLocaleDateString(
                 lang === "ar" ? "ar-EG" : "en-US",
                 { year: "numeric", month: "long", day: "numeric" },
               )
             : "",
-          sizeMb: asset ? formatSize(asset.size) : null,
-          downloadUrl: asset?.browser_download_url ?? null,
+          sizeMb: asset ? formatSize(asset.size) : DEFAULT_RELEASE.sizeMb,
+          downloadUrl: asset?.browser_download_url ?? site.directDownloadUrl,
         });
-        setLoading(false);
       })
       .catch(() => {
-        if (!cancelled) setLoading(false);
+        // Fallback info is already populated in DEFAULT_RELEASE
       });
     return () => {
       cancelled = true;
@@ -90,8 +96,8 @@ function DownloadPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lang]);
 
-  // رابط التحميل: مباشر من الإصدار لو متاح، وإلا صفحة الإصدارات
-  const downloadHref = release?.downloadUrl ?? githubReleasesUrl;
+  // رابط التحميل: مباشر من الإصدار لو متاح، وإلا الرابط المباشر الافتراضي، وإلا صفحة الإصدارات
+  const downloadHref = release?.downloadUrl || site.directDownloadUrl || githubReleasesUrl;
 
   return (
     <>
